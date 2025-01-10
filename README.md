@@ -1,1 +1,1 @@
-[![Animation Preview](./preview-image.png)](https://your-username.github.io/matnepo/)
+<img src="./animated-graphic.svg" alt="Animation" />
