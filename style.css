@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #0d1117;
+  color: white;
+  margin: 0;
+  padding: 20px;
+}
+
+.data-cube {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  display: inline-block;
+  background-color: #238636;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+.data-cube:hover {
+  transform: scale(1.1);
+}
+
+#score, #metrics {
+  margin: 20px;
+  font-size: 20px;
+}
+
+#graph {
+  width: 80%;
+  height: 300px;
+  margin: 20px auto;
+  background-color: #161b22;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.data-point {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background-color: #58a6ff;
+  border-radius: 50%;
+}
