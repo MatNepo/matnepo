@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Train the Model!</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; background-color: #0d1117; color: white; margin: 0; padding: 20px; }
+    .data-cube { width: 50px; height: 50px; margin: 10px; display: inline-block; background-color: #238636; cursor: pointer; }
+    #score, #metrics { margin: 20px; font-size: 20px; }
+    #graph { width: 80%; height: 300px; margin: 20px auto; background-color: #161b22; border-radius: 10px; position: relative; overflow: hidden; }
+    .data-point { position: absolute; width: 5px; height: 5px; background-color: #58a6ff; border-radius: 50%; }
+  </style>
+</head>
+<body>
+  <h1>Train the Model!</h1>
+  <p>Кликай на кубики, чтобы собрать данные и улучшить метрики модели!</p>
+  <div id="game">
+    <div class="data-cube" onclick="collectData()"></div>
+    <div class="data-cube" onclick="collectData()"></div>
+    <div class="data-cube" onclick="collectData()"></div>
+  </div>
+  <div id="score">Собрано данных: 0</div>
+  <div id="metrics">
+    <p>📈 Accuracy: <span id="accuracy">50%</span></p>
+    <p>📉 Loss: <span id="loss">50%</span></p>
+  </div>
+  <div id="graph"></div>
+
+  <script>
+    let dataCount = 0;
+    let accuracy = 50;
+    let loss = 50;
+
+    function collectData() {
+      dataCount++;
+      document.getElementById('score').innerText = `Собрано данных: ${dataCount}`;
+      updateMetrics();
+      plotDataPoint();
+    }
+
+    function updateMetrics() {
+      // Accuracy растёт, Loss уменьшается
+      accuracy = Math.min(100, accuracy + Math.random() * 2);
+      loss = Math.max(0, loss - Math.random() * 2);
+
+      document.getElementById('accuracy').innerText = `${accuracy.toFixed(1)}%`;
+      document.getElementById('loss').innerText = `${loss.toFixed(1)}%`;
+    }
+
+    function plotDataPoint() {
+      const graph = document.getElementById('graph');
+      const point = document.createElement('div');
+      point.className = 'data-point';
+      point.style.left = `${Math.random() * 100}%`;
+      point.style.bottom = `${Math.random() * 100}%`;
+      graph.appendChild(point);
+
+      // Удаление точек данных после некоторого времени
+      setTimeout(() => point.remove(), 5000);
+    }
+  </script>
+</body>
+</html>
