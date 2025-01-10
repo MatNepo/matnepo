@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="200">
+  <rect width="600" height="200" fill="#0d1117"/>
+  <text x="50%" y="50%" fill="#58a6ff" font-size="24" font-family="Arial" text-anchor="middle" dominant-baseline="middle">
+    Welcome to My GitHub Profile!
+    <animate attributeName="x" from="0" to="100" dur="2s" repeatCount="indefinite" />
+  </text>
+</svg>
