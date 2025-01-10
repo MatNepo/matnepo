@@ -1,1 +1,1 @@
-<iframe src="https://your-username.github.io/matnepo/" width="100%" height="400" frameborder="0"></iframe>
+<img src="https://matnepo.github.io/matnepo/" alt="Animated SVG" />
