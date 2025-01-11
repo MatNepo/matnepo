@@ -11,17 +11,9 @@ I am a **Data Scientist** and **Computer Vision Engineer** passionate about tran
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MatNepo&show_icons=true&count_private=true&hide_title=true&theme=dark)
 
-## 🗓️ Yearly Stats (2023)
-
-![Yearly Stats](https://github-readme-stats.vercel.app/api?username=MatNepo&count_private=true&show_icons=true&theme=radical)
-
 ## 🖥️ Most Used Languages
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MatNepo&layout=compact&langs_count=6&theme=dark)
-
-## 🌱 GitHub Contributions
-
-![Contributions Chart](https://github-contributions.now.sh/MatNepo)
 
 ## 👀 Profile Views Counter
 
