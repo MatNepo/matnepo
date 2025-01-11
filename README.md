@@ -2,7 +2,7 @@
   <img src="animation.gif" alt="Анимация" style="width: 100%; max-width: 1000px;" />
 </div>
 
-# 💫 About Me:
+##  ༺🍃 卂乃ㄖㄩㄒ 爪乇 ツ
 👨‍🎓 Current Student & CV Engineer | Data Scientist  <br>**Peter the Great St. Petersburg Polytechnic University**  <br>4th Year, Bachelor's Program<br><br>I am currently pursuing my Bachelor's degree in Computer Science at Peter the Great St. Petersburg Polytechnic University, specializing in **Computer Vision (CV)** and **Data Science**. Alongside my studies, I work as a **CV Engineer** and **Data Scientist**, where I apply my knowledge and skills to tackle real-world challenges and contribute to innovative projects.
 
 
