@@ -3,95 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Profile Animation</title>
-    <style>
-        body {
-            margin: 0;
-            background: #0d1117;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            overflow: hidden;
-            color: #c9d1d9;
-            font-family: Arial, sans-serif;
-        }
-        canvas {
-            display: block;
-        }
-    </style>
+    <title>Matnepo Animation with SVG</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <canvas id="animationCanvas"></canvas>
-    <script>
-        const canvas = document.getElementById('animationCanvas');
-        const ctx = canvas.getContext('2d');
-        
-        canvas.width = window.innerWidth;
-        canvas.height = window.innerHeight;
-
-        class Particle {
-            constructor(x, y, dx, dy, size, color) {
-                this.x = x;
-                this.y = y;
-                this.dx = dx;
-                this.dy = dy;
-                this.size = size;
-                this.color = color;
-            }
-
-            draw() {
-                ctx.beginPath();
-                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
-                ctx.fillStyle = this.color;
-                ctx.fill();
-            }
-
-            update() {
-                if (this.x + this.size > canvas.width || this.x - this.size < 0) {
-                    this.dx = -this.dx;
-                }
-                if (this.y + this.size > canvas.height || this.y - this.size < 0) {
-                    this.dy = -this.dy;
-                }
-
-                this.x += this.dx;
-                this.y += this.dy;
-
-                this.draw();
-            }
-        }
-
-        const particles = [];
-
-        function init() {
-            particles.length = 0;
-            const colors = ['#58a6ff', '#1f6feb', '#f78166', '#8b949e'];
-            for (let i = 0; i < 100; i++) {
-                const size = Math.random() * 5 + 1;
-                const x = Math.random() * (canvas.width - size * 2) + size;
-                const y = Math.random() * (canvas.height - size * 2) + size;
-                const dx = (Math.random() - 0.5) * 2;
-                const dy = (Math.random() - 0.5) * 2;
-                const color = colors[Math.floor(Math.random() * colors.length)];
-                particles.push(new Particle(x, y, dx, dy, size, color));
-            }
-        }
-
-        function animate() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            particles.forEach(particle => particle.update());
-            requestAnimationFrame(animate);
-        }
-
-        window.addEventListener('resize', () => {
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
-            init();
-        });
-
-        init();
-        animate();
-    </script>
+    <div class="container">
+        <svg id="commitSvg" xmlns="http://www.w3.org/2000/svg"></svg>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
