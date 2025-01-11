@@ -2,33 +2,35 @@
   <img src="animation.gif" alt="Анимация" style="width: 100%; max-width: 1000px;" />
 </div>
 
-# Hi, I'm [Your Name] 👋
+# Hi, I'm Mathew 👋
 
 I am a **Data Scientist** and **Computer Vision Engineer** passionate about transforming data into actionable insights and building intelligent systems. I specialize in **machine learning**, **deep learning**, and **computer vision**.
 
-## 🔧 Technologies & Tools
 
-- **Programming Languages**: Python, R, C++, SQL
-- **Libraries/Frameworks**: TensorFlow, PyTorch, OpenCV, scikit-learn, Pandas, NumPy
-- **Data Science Tools**: Jupyter, VS Code, Git, Docker
-- **Cloud**: AWS, Google Cloud
+## 📊 GitHub Stats (All Time)
 
-## 📈 Key Skills & Interests
-- **Data Analysis & Visualization**: Extracting actionable insights from data and presenting it using tools like Matplotlib, Seaborn, and Plotly.
-- **Machine Learning**: Supervised/unsupervised learning, model optimization.
-- **Computer Vision**: Object detection, image classification, facial recognition, and segmentation.
-- **AI Research**: Exploring new frontiers of artificial intelligence to solve real-world problems.
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=MatNepo&show_icons=true&count_private=true&hide_title=true&theme=dark)
 
-## 📂 Projects
-- [Project 1: Image Classification with CNNs](link-to-project)
-- [Project 2: Time Series Forecasting with LSTM](link-to-project)
-- [Project 3: Object Detection using YOLO](link-to-project)
+## 🗓️ Yearly Stats (2023)
 
-## 🔗 Connect with me:
-- [LinkedIn](your-linkedin-url)
-- [Twitter](your-twitter-url)
-- [Kaggle](your-kaggle-url)
+![Yearly Stats](https://github-readme-stats.vercel.app/api?username=MatNepo&count_private=true&show_icons=true&theme=radical)
 
-## 📊 GitHub Stats
+## 🖥️ Most Used Languages
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YourGitHubUsername&show_icons=true&count_private=true&hide_title=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=MatNepo&layout=compact&langs_count=6&theme=dark)
+
+## 🌱 GitHub Contributions
+
+![Contributions Chart](https://github-contributions.now.sh/MatNepo)
+
+## 👀 Profile Views Counter
+
+![Profile Views](https://komarev.com/ghpvc/?username=MatNepo&color=brightgreen)
+
+## ⏳ Time Spent on Programming Languages
+
+![WakaTime](https://wakatime.com/badge/user/12210596-f930-4755-8e0d-f4e7d45d7e71.svg)
+
+## 🚀 Project Progress
+
+![Project Progress](https://img.shields.io/badge/Project%20Progress-80%25-brightgreen)
