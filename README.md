@@ -3,7 +3,27 @@
 </div>
 
 ##  ༺🍃 卂乃ㄖㄩㄒ 爪乇 ツ
-👨‍🎓 Current Student & CV Engineer | Data Scientist  <br>**Peter the Great St. Petersburg Polytechnic University**  <br>4th Year, Bachelor's Program<br><br>I am currently pursuing my Bachelor's degree in Computer Science at Peter the Great St. Petersburg Polytechnic University, specializing in **Computer Vision (CV)** and **Data Science**. Alongside my studies, I work as a **CV Engineer** and **Data Scientist**, where I apply my knowledge and skills to tackle real-world challenges and contribute to innovative projects.
+
+**AI Explorer | CV Engineer | Data Scientist**  
+**Peter the Great St. Petersburg Polytechnic University**  
+**B.Sc. in Computer Science — Graduated**  
+**Incoming M.Sc. Student in Artificial Intelligence**
+
+I’m a graduate of Peter the Great St. Petersburg Polytechnic University, where I earned my Bachelor's degree in Computer Science with a focus on **Computer Vision** and **Data Science**.
+
+My thesis work centered on **multimodal emotion recognition**, where I explored the integration of visual, audio, and textual signals to improve the accuracy and robustness of emotion detection systems. This experience solidified my interest in **human-centered AI** and the power of **multimodal machine learning** to bridge the gap between algorithms and human perception.
+
+Currently, I work as a **Computer Vision Engineer** and **Data Scientist**, applying cutting-edge techniques to solve real-world challenges, build intelligent systems, and contribute to applied AI research.
+
+As I prepare to start my Master’s studies in Artificial Intelligence, I remain deeply passionate about developing ethical, interpretable, and impactful AI systems.
+
+---
+
+## Let's Collaborate
+
+I'm always open to collaborating on exciting research.
+
+If you're interested in co-authoring a scientific paper on topics related to **AI**, **Computer Vision**, or **Multimodal Machine Learning** — feel free to reach out using socials below!
 
 
 ### 🌐 Socials:
